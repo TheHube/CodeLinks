@@ -1,1 +1,12 @@
-There was an error committing your changes: File could not be edited
+// MetricsProcessor.cs
+public class MetricsProcessor
+{
+    public void ScrapeAndStoreMetrics()
+    {
+        // Implementation of scraping and storing metrics
+        // ...
+
+        // Simulate the 90-second delay
+        System.Threading.Thread.Sleep(90000);
+    }
+}
